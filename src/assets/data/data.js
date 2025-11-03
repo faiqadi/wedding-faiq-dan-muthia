@@ -2,19 +2,21 @@ export const data = {
     bride: {
         L: {
             id: 1,
-            name: 'Faiq Adi Wibowo',
+            name: 'Faiq Adi Wibowo S.Kom',
             child: 'Putra pertama',
-            father: 'Sujito S.Pd. M.Pd.',
-            mother: 'Sri Purwatiningsih',
-            image: './src/assets/images/cowo.jpeg'
+            father: 'Sujito S.Pd. M.Si.',
+            mother: 'Sri Purwatiningsih A.Md',
+            image: './src/assets/images/cowo.jpeg',
+            location: '- Blora, Jawa Tengah -'
         },
         P: {
             id: 2,
-            name: 'Muthia Syafitri Amni',
+            name: 'Muthia Syafitri Amni S.I.Kom',
             child: 'Putri pertama',
             father: 'Abrahamsyah (alm)',
             mother: 'Zuliarni',
-            image: './src/assets/images/cewe.jpeg'
+            image: './src/assets/images/cewe.jpeg',
+            location: '- Batusangkar, Sumatera Barat -'
         },
 
         couple: './src/assets/images/couple.png'
@@ -27,7 +29,7 @@ export const data = {
             date: '06',
             day: 'Sabtu',
             hours: {
-                start: '08.00',
+                start: '08.15',
                 finish: 'Selesai'
             }
         },
@@ -37,8 +39,8 @@ export const data = {
             date: '07',
             day: 'Minggu',
             hours: {
-                start: '09.00',
-                finish: 'Selesai'
+                start: '10.00',
+                finish: '13.00'
             }
         },
         address: 'Graha Nusantara - Jl. Mr. Iskandar No.95, Beran, Mlangsen, Kec. Blora, Kabupaten Blora, Jawa Tengah'
@@ -46,7 +48,7 @@ export const data = {
 
     link: {
         calendar: 'https://calendar.app.google/9dwoP3owH9eQjqqq7',
-        map: 'https://share.google/WiJgKiDRetRf8I48o',
+        map: 'https://maps.app.goo.gl/mEpp5ZpLekQGZdVM6',
     },
 
     galeri: [
