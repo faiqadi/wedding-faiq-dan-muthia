@@ -6,7 +6,7 @@ export const data = {
             child: 'Putra pertama',
             father: 'Sujito S.Pd. M.Si.',
             mother: 'Sri Purwatiningsih A.Md',
-            image: './src/assets/images/cowo.jpeg',
+            image: './src/assets/images/cowo.png',
             location: '- Blora, Jawa Tengah -'
         },
         P: {
@@ -15,11 +15,12 @@ export const data = {
             child: 'Putri pertama',
             father: 'Abrahamsyah (alm)',
             mother: 'Zuliarni',
-            image: './src/assets/images/cewe.jpeg',
+            image: './src/assets/images/cewe.png',
             location: '- Batusangkar, Sumatera Barat -'
         },
 
-        couple: './src/assets/images/couple.png'
+        couple: './src/assets/images/couple.png',
+        coupleHome: './src/assets/images/couple2.png'
     },
 
     time: {
@@ -51,6 +52,33 @@ export const data = {
         map: 'https://maps.app.goo.gl/mEpp5ZpLekQGZdVM6',
     },
 
+    preview: [
+        {
+            id: 1,
+            image: './src/assets/images/1.jpeg'
+        },
+        {
+            id: 2,
+            image: './src/assets/images/2.jpeg'
+        },
+        {
+            id: 3,
+            image: './src/assets/images/3.jpeg'
+        },
+        {
+            id: 4,
+            image: './src/assets/images/preview1.png'
+        },
+        {
+            id: 5,
+            image: './src/assets/images/preview2.png'
+        },
+        {
+            id: 6,
+            image: './src/assets/images/preview3.png'
+        }
+    ],
+    
     galeri: [
         {
             id: 1,
@@ -91,6 +119,30 @@ export const data = {
             icon: './src/assets/images/bri.png',
             rekening: '300701024174535'
         },
+    ],
+
+    story: [
+        {
+            id: 1,
+            date: '2023',
+            title: 'Awal Bertemu',
+            description: 'Tidak ada yang kebetulan di dunia ini. Semua sudah tersusun dengan sangat rapi oleh Sang Maha Kuasa. Kita tidak bisa memilih kepada siapa kita akan jatuh cinta, karena cinta datang pada waktu yang tepat. Kami dipertemukan untuk pertama kalinya pada tahun 2023 di Alun-Alun Kidul, Kota Yogyakarta — sebuah pertemuan sederhana yang kemudian menjadi awal dari kisah indah kami.',
+            image: './src/assets/images/1.jpeg'
+        },
+        {
+            id: 2,
+            date: '2023 - 2025',
+            title: 'Perjalanan Bersama',
+            description: 'Katanya, cinta dapat tumbuh melalui kebersamaan. Seiring berjalannya waktu, kami semakin dekat dan saling memahami. Kami menjalin hubungan selama dua tahun hingga akhirnya Tuhan menakdirkan kami untuk bersama.',
+            image: './src/assets/images/2.jpeg'
+        },
+        {
+            id: 3,
+            date: '2025',
+            title: 'Menuju Pelaminan',
+            description: 'Kehendak-Nya mempertemukan kami pada waktu yang tak terduga. Pada September 2025, kami melangsungkan lamaran sebagai langkah awal menuju kisah baru yang diridhoi-Nya. Dengan penuh rasa syukur, kami akan mengikrarkan janji suci pernikahan pada 6 Desember 2025, memulai perjalanan hidup bersama dalam cinta dan keberkahan.',
+            image: './src/assets/images/3.jpeg'
+        }
     ],
 
     audio: './src/assets/audio/wedding.mp3',
