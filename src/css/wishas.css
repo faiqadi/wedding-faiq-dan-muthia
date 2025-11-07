@@ -1,6 +1,6 @@
 .wishas {
     width: 100%;
-    min-height: 100vh;
+    min-height: 120vh;
     padding: 4rem 8rem;
     background-color: var(--bg-color);
     position: relative;
