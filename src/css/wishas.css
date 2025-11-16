@@ -1,15 +1,15 @@
 .wishas {
     width: 100%;
-    min-height: 120vh;
+    min-height: 12vh;
     padding: 4rem 8rem;
-    background-color: var(--bg-color);
+    background-color: red;
     position: relative;
     text-align: center;
 }
 
-.wishas {
+/* .wishas {
     background: url('../assets/images/5.jpg') center center / cover no-repeat fixed;
-}
+} */
 
 .wishas::before {
     content: "";
