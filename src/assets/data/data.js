@@ -42,7 +42,7 @@ export const data = {
             day: 'Minggu',
             hours: {
                 start: '10.00',
-                finish: '13.00'
+                finish: '12.00'
             },
             id: 2
         },
